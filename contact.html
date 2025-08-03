@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark position-relative top-0"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="images/logo.png"
+            alt="SkillUp Logo"
+            width="40"
+            height="40"
+            class="me-2"
+          />
+          <span class="text-white">Paschal</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./shop.html">Shop</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- contact us -->
+    <section class="container-section position-relative w-100">
+      <img src="Images/Rectangle.png" style="width: 100%" alt="Rectangle" />
+      <div
+        class="d-flex flex-column align-items-center justify-content-center position-absolute end-50 top-50 translate-middle-y"
+      >
+        <img src="Images/logo.png" alt="logo" />
+        <h1>Contact</h1>
+        <div class="d-flex align-items-center justify-content-center flex-row">
+          <p>Home</p>
+          <img
+            src="Images/arrow-down.png"
+            style="width: 24px"
+            alt="arrow-down"
+          />
+          <p>Contact</p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="get-touch d-flex align-items-center justify-content-center flex-column"
+    >
+      <h1 class="fs-1 lg-5 text-center">Get In Touch With Us</h1>
+      <p class="fs-2 fs-md-3 text-center" style="width: 55%">
+        For More Information About Our Product & Services. Please Feel Free To
+        Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not
+        Hesitate!
+      </p>
+
+      <div class="d-flex flex-md-row flex-column p-4">
+        <div class="d-flex flex-column">
+          <div class="d-flex align-items-start gap-5">
+            <img src="Images/vector1.png" style="width: 24px" alt="vector" />
+            <div>
+              <h1 class="fs-1 lg-5">Address</h1>
+              <p class="fs-2 fs-md-3" style="width: 60%">
+                236 5th SE Avenue, New York NY10000, United States
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-5">
+            <img src="Images/Vector2.png" style="width: 24px" alt="phone" />
+            <div>
+              <h1 class="fs-1 lg-5">Phone</h1>
+              <p class="fs-2 fs-md-3" style="width: 60%">
+                Mobile: +(84) 546-6789 Hotline: +(84) 456-6789
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-5">
+            <img src="Images/Vector3.png" style="width: 24px" alt="watch" />
+            <div>
+              <h1 class="fs-1 lg-5">Working Time</h1>
+              <p class="fs-2 fs-md-3" style="width: 60%">
+                Monday-Friday: 9:00 - 22:00 Saturday-Sunday: 9:00 - 21:00
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="d-flex flex-column gap-5" style="width: 90%">
+          <label for="yourname" class="d-flex flex-column fs-6"
+            >YourName
+            <input type="text" class="fs-6 p-3" placeholder="ABC" />
+          </label>
+
+          <label for="email" class="d-flex flex-column fs-6"
+            >Email
+            <input
+              type="text"
+              class="fs-6 p-3"
+              style="width: 100%"
+              placeholder="Abc@def.com"
+            />
+          </label>
+
+          <label for="subject" class="d-flex flex-column fs-6"
+            >Subject
+            <input
+              type="text"
+              class="fs-6 p-3"
+              placeholder="This is an optional"
+            />
+          </label>
+
+          <label for="yourname" class="d-flex flex-column fs-6"
+            >Message
+            <input
+              type="text"
+              class="fs-6 p-5"
+              placeholder="Hi! i’d like to ask about"
+            />
+          </label>
+          <button class="p-2" style="background-color: #b88e2f">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section>
+      <!-- footer -->
+      <footer>
+        <footer class="bg-dark text-white pt-5 pb-4">
+          <div class="container text-md-left">
+            <div class="row text-md-left text-center">
+              <!-- Company Info -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                  FuniroFurniture
+                </h5>
+                <p>
+                  Share your best furniture setup with us. We help turn your
+                  space into style.
+                </p>
+              </div>
+
+              <!-- Quick Links -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                  Quick Links
+                </h5>
+                <p>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Landing-page</a
+                  >
+                </p>
+                <p>
+                  <a href="#" class="text-white text-decoration-none">About</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white text-decoration-none">Shop</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Contact</a
+                  >
+                </p>
+              </div>
+
+              <!-- Useful Links -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                  Useful
+                </h5>
+                <p>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Payment-option</a
+                  >
+                </p>
+                <p>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Returns</a
+                  >
+                </p>
+                <p>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Support</a
+                  >
+                </p>
+                <p>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Privacy Policy</a
+                  >
+                </p>
+              </div>
+
+              <!-- Newsletter -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                  Newsletter
+                </h5>
+                <form class="d-flex">
+                  <input
+                    type="email"
+                    class="form-control me-2"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-warning" type="submit">
+                    Subscribe
+                  </button>
+                </form>
+
+                <!-- Social Icons -->
+                <div class="mt-3">
+                  <a href="#" class="text-white me-4"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="#" class="text-white me-4"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a href="#" class="text-white me-4"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="#" class="text-white"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom -->
+            <hr class="mb-4" />
+            <div class="row align-items-center text-center">
+              <div class="col-md-12">
+                <p>&copy; 2025 FuniroFurniture. All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </footer>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
